@@ -92,6 +92,9 @@ router.post('/register' , (req,res)=> {
     failureFlash: true
   })
 //   (req, res, next);
+router.post('/login' , (req,res) =>{
+    res.render("/dashboard")
+}
 
 
 // Logout
